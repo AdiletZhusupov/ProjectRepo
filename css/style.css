@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
-.navbar{
+
+.navbar {
     padding: 1rem 12px;
     background-color: #212529;
     position: fixed;
@@ -16,47 +18,219 @@ body{
     right: 0;
     z-index: 1050;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-.main-nav{
+
+.main-nav {
     padding: 10px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
 }
-.logo{
+
+.logo {
     color: #fed136;
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: bold;
 }
-.menu{
+
+.menu {
     list-style: none;
     display: none;
     font-size: 0.95rem;
 }
-.menu li{
+
+.menu li {
     margin-left: 15px;
 }
-.menu a{
+
+.menu a {
     color: white;
     text-decoration: none;
 }
-.menu a:hover{
+
+.menu a:hover {
     color: #fed136;
 }
 
 @media screen and (min-width: 992px) {
-    .logo{
+    .logo {
         font-size: 1.5em;
     }
-    .navbar{
+
+    .navbar {
         background-color: transparent;
     }
-    .menu{
+
+    .menu {
         display: flex;
         margin-left: auto;
     }
 }
+
+/* services*/
+.page-section {
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 96%;
+
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-text {
+    text-align: center;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .container1 {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        height: 800px;
+        width: 96%;
+
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
+
+
+.box1 {
+    display: grid;
+
+    align-items: center;
+
+    width: 98%;
+
+    margin: 4px;
+    padding: 4px;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.container1 {
+    display: grid;
+
+    grid-template-rows: 40% 40% 40%;
+    grid-template-rows: repeat(auto-fit, minmax(100px 585px));
+
+
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.page-section {
+    padding: 6rem 0;
+}
+
+.main-text {
+    text-align: center;
+}
+
+h1 {
+    text-size-adjust: bold;
+    text-size-adjust: large;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-bottom: 4rem;
+}
+
+
+.box1 {
+    width: 90%;
+    height: 130%;
+    text-align: center;
+    display: grid;
+}
+
+h4 {
+    font-size: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+p {
+
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 90px;
+}
+
+/* icons below*/
+div div span .icon1 {
+
+    position: absolute;
+    width: 130px;
+    color: rgb(255, 191, 0);
+    margin-top: -35px;
+    margin-left: -24px;
+}
+
+div div span .icon2 {
+    margin-bottom: -10px;
+    position: relative;
+    width: 80px;
+    color: rgb(255, 255, 255);
+}
+
+div div span .icon3 {
+
+    position: absolute;
+    width: 130px;
+    color: rgb(255, 191, 0);
+    margin-top: -35px;
+    margin-left: -24px;
+}
+
+div div span .icon4 {
+
+    position: relative;
+    margin-bottom: 10px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+}
+
+div div span .icon5 {
+    margin: 0;
+    position: absolute;
+    width: 130px;
+    color: rgb(255, 191, 0);
+    margin-top: -25px;
+    margin-left: -29px;
+}
+
+div div span .icon6 {
+
+    position: relative;
+    width: 73px;
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+}
+
+/* end of section*/
