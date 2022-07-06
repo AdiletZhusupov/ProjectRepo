@@ -141,12 +141,9 @@ body {
 }
 
 /* start line services*/
-.page-section {
-    box-sizing: border-box;
 
-}
 
-.container {
+.container-main {
     width: 100%;
 
     padding-right: 0.75rem;
@@ -167,7 +164,10 @@ body {
 
     .container1 {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        display: flex;
+        justify-self: center;
+        ;
+        grid-template-columns: 35% 35% 35%;
         height: 800px;
         width: 96%;
 
@@ -176,6 +176,7 @@ body {
         margin-right: auto;
         margin-left: auto;
     }
+
 
 
 }
@@ -231,10 +232,14 @@ h3 {
 
 
 .box1 {
+    margin: 0;
+    padding: 0;
+    border: solid red 1px;
     width: 100%;
-    height: 130%;
+    height: 100%;
     text-align: center;
     display: grid;
+
 }
 
 h4 {
@@ -250,58 +255,66 @@ p {
     margin-bottom: 90px;
 }
 
+.span {
+    position: relative;
+
+}
+
 /* icons below*/
 div div span .icon1 {
+    border: solid 1px red;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
-    position: absolute;
-    width: 130px;
+    position: static;
+    width: 30%;
     color: rgb(255, 191, 0);
-    margin-top: -35px;
-    margin-left: -24px;
+
 }
 
 div div span .icon2 {
-    margin-bottom: -10px;
-    position: relative;
-    width: 80px;
+    z-index: 10;
+    position: absolute;
+    width: 25pxs;
     color: rgb(255, 255, 255);
 }
 
 div div span .icon3 {
-
-    position: absolute;
-    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 1px red;
+    position: relative;
+    width: 30%;
     color: rgb(255, 191, 0);
-    margin-top: -35px;
-    margin-left: -24px;
+
 }
 
 div div span .icon4 {
 
-    position: relative;
-    margin-bottom: 10px;
+    position: absolute;
+    margin-bottom: 20px;
     width: 80px;
     color: rgb(255, 255, 255);
 }
 
 div div span .icon5 {
-    margin: 0;
-    position: absolute;
-    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 30%;
     color: rgb(255, 191, 0);
-    margin-top: -25px;
-    margin-left: -29px;
+
 }
 
 div div span .icon6 {
 
-    position: relative;
-    width: 73px;
-    margin-top: -10px;
+    position: absolute;
+    width: 25%;
+
     color: rgb(255, 255, 255);
 }
 
-/* end of section*/
+/* end of service section*/
 /*footer style */
 footer {
     text-align: center;
